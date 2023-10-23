@@ -1,7 +1,7 @@
 import sha3
 from eth_utils import is_hex_address
 from django import forms
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from py_ecc.secp256k1 import ecdsa_raw_recover
 from rlp.utils import ALL_BYTES
 try:
